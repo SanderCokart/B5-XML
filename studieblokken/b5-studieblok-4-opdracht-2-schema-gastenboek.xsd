@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.w3schools.com"
+           xmlns="https://www.w3schools.com"
+           elementFormDefault="qualified">
+
+    <xs:complexType name="berichtType">
+        <xs:all>
+            <xs:element name="van" type="xs:string"/>
+            <xs:element name="bericht" type="xs:string"/>
+            <xs:element name="datum" type="xs:date"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:complexType name="gastenboekType">
+        <xs:all>
+            <xs:element name="bericht" type="berichtType"/>
+        </xs:all>
+    </xs:complexType>
+
+
+    <xs:element name="gastenboek" type="gastenboekType"/>
+
+</xs:schema>

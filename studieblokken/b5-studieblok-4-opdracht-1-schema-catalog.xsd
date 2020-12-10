@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.w3schools.com"
+           xmlns="https://www.w3schools.com"
+           elementFormDefault="qualified">
+
+    <xs:complexType name="cdType">
+        <xs:all>
+            <xs:element name="TITLE" type="xs:string"/>
+            <xs:element name="ARTIST" type="xs:string"/>
+            <xs:element name="COUNTRY" type="xs:string"/>
+            <xs:element name="COMPANY" type="xs:string"/>
+            <xs:element name="PRICE" type="xs:double"/>
+            <xs:element name="YEAR" type="xs:gYear"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:complexType name="catalogType">
+        <xs:all>
+            <xs:element name="CD" type="cdType"/>
+        </xs:all>
+    </xs:complexType>
+
+
+    <xs:element name="CATALOG" type="catalogType"/>
+
+</xs:schema>

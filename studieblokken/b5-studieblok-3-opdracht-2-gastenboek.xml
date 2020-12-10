@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastenboek>
+    <bericht>
+        <van>Mckenzie Ernser</van>
+        <bericht>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, maiores?</bericht>
+        <datum>Mon Dec 07 2020 07:17:25</datum>
+    </bericht>
+    <bericht>
+        <van>Gene Welch</van>
+        <bericht>Suscipit veritatis expedita distinctio et assumenda officiis adipisci. Accusamus illum sint fugit voluptatibus possimus. Ullam qui sed aliquid aut molestiae rerum hic. Dolorem voluptas ut unde commodi omnis nemo dolor et.</bericht>
+        <datum>Mon Dec 07 2020 04:06:51</datum>
+    </bericht>
+    <bericht>
+        <van>Kendall Schaefer</van>
+        <bericht>Quas adipisci id. Alias iusto qui placeat adipisci animi consectetur libero. Labore totam iste voluptatem voluptatem voluptas debitis voluptatibus laudantium odit. Fugit explicabo deserunt dolorum exercitationem et hic itaque accusantium.</bericht>
+        <datum>Mon Dec 07 2020 08:38:27</datum>
+    </bericht>
+    <bericht>
+        <van>Mr. Selmer Tremblay</van>
+        <bericht>Rem minus omnis quos. Natus ex repellat vero dignissimos cupiditate praesentium vitae. Ut eum qui aut iure aliquam facere et facere ut. Ipsum reprehenderit sed enim ipsum est.</bericht>
+        <datum>Mon Dec 07 2020 10:16:55</datum>
+    </bericht>
+    <bericht>
+        <van>Rickie Hills</van>
+        <bericht>In ut ab ut blanditiis consequuntur. Fuga sit sed non. Sed alias incidunt. Vero veniam nihil. Et nobis neque voluptates eius dolorum voluptas nesciunt. Quae quia optio molestiae beatae id.</bericht>
+        <datum>Sun Dec 06 2020 19:59:29</datum>
+    </bericht>
+    <bericht>
+        <van>Anabelle Ankunding</van>
+        <bericht>Velit repudiandae at qui ut voluptatem corporis. Officia dolores omnis ratione neque ducimus eius consequatur quia fuga. Quis ut facere molestiae distinctio vel voluptas.</bericht>
+        <datum>Mon Dec 07 2020 03:35:33</datum>
+    </bericht>
+</gastenboek>

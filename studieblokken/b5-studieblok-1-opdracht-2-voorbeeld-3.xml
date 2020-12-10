@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<todos>
+    <todo>
+        <taskname>Do something</taskname>
+        <taskdescription>A thourough explanation of what to do.</taskdescription>
+        <created_on>Sat Aug 01 2020 09:22:00 GMT+0200 (Central European Summer Time)</created_on>
+        <finish_by>Sun Nov 22 2020 14:19:55 GMT+0100 (Central European Standard Time)</finish_by>
+    </todo>
+</todos>
