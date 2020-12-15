@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.sandercokart.com/personen.xsd"
+           xmlns="https://www.sandercokart.com/personen.xsd"
+>
+    <xs:simpleType name="geslachtType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="man"/>
+            <xs:enumeration value="vrouw"/>
+            <xs:enumeration value="anders"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="persoonType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="voornaam"/>
+            <xs:element type="xs:string" name="achternaam"/>
+            <xs:element type="geslachtType" name="geslacht"/>
+            <xs:element type="xs:date" name="geboortedatum"/>
+            <xs:element type="xs:double" name="lengte_in_cm"/>
+            <xs:element type="xs:double" name="gewicht_in_kg"/>
+            <xs:element type="xs:string" name="haarkleur"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="personen">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="persoon" type="persoonType" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
