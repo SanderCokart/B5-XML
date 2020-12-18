@@ -24,4 +24,4 @@ foreach ($xml as $persoon) {
     echo '</tr>';
 }
 echo "</table>";
-echo "<a href='personen.xml'>View XML in browser.</a>";
+echo "<a href='personen_view.php'>View XML in browser.</a>";
